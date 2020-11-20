@@ -5,7 +5,7 @@ const { response } = require('express');
 const express = require('express');
 // server has all proparties and method of express library
 const server = express();
- const PORT =3500;
+ const PORT = process.env.PORT || 3500;
 
  server.use(express.static('./public'))
 
