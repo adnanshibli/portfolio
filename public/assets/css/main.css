@@ -2234,7 +2234,8 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/Programming-wallpapers-1920x1080-Full-HD-1080p-desktop-.jpg");
+				background-size: cover;
 			}
 
 			#main > section.two {
@@ -2248,6 +2249,7 @@ input, select, textarea {
 			#main > section.four {
 				background-color: #e8edec;
 			}
+			
 
 /* Wide */
 
@@ -2609,3 +2611,7 @@ input, select, textarea {
 				}
 
 	}
+.red{
+	color: white;
+	border: solid .5 wheat;
+}
